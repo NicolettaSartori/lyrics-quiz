@@ -1,0 +1,124 @@
+@mixin background($color) {
+    background-color: $color;
+}
+@mixin backgroundImportant($color) {
+    background-color: $color !important;
+}
+@mixin text($color) {
+    color: $color;
+}
+@mixin textImportant($color) {
+    color: $color !important;
+}
+
+//Background colors
+    //main
+.bg-main-light {
+    background-color: $main-light;
+}
+.bg-main {
+    background-color: $main;
+}
+.bg-main-dark {
+    background-color: $main-dark;
+}
+    //accent
+.bg-acc-light {
+    background-color: $accent-light;
+}
+.bg-acc{
+    background-color: $accent;
+}
+.bg-acc-dark {
+    background-color: $accent-dark;
+}
+    //light
+.bg-light-light {
+    background-color: $light-light;
+}
+.bg-light {
+    background-color: $light-medium;
+}
+.bg-light-dark {
+    background-color: $light-dark;
+}
+    //grey
+.bg-grey-light {
+    background-color: $grey-light;
+}
+.bg-grey {
+    background-color: $grey;
+}
+    //dark
+.bg-dark-light {
+    background-color: $dark-light;
+}
+.bg-dark {
+    background-color: $dark-medium;
+}
+.bg-dark-dark {
+    background-color: $dark-dark;
+}
+
+
+//Text colors
+    //dark
+.txt-dark-light {
+    color: $dark-light;
+}
+.txt-dark {
+    color: $dark-medium;
+}
+.txt-dark-dark {
+    color: $dark-dark;
+}
+
+//important
+    //accent
+.txt-acc-i {
+    color: $accent !important;
+}
+.txt-acc-dark-i {
+    color: $accent-dark !important;
+}
+    //light
+.txt-light-light-i {
+    color: $light-light !important;
+}
+.txt-light-i {
+    color: $light-medium !important;
+}
+.txt-light-dark-i {
+    color: $light-dark !important;
+}
+    //grey
+.txt-grey-i {
+    color: $grey !important;
+}
+    //dark
+.txt-dark-i {
+    color: $dark-medium !important;
+}
+
+
+//Border colors
+    //main
+.bd-main-light {
+    border-color: $main-light;
+}
+.bd-main {
+    border-color: $main;
+}
+.bd-main-dark {
+    border-color: $main-dark;
+}
+    //accent
+.bd-acc-light {
+    border-color: $accent-light;
+}
+.bd-acc {
+    border-color: $accent;
+}
+.bd-acc-dark {
+    border-color: $accent-dark;
+}

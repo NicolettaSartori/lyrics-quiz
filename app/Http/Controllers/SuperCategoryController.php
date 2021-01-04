@@ -16,9 +16,8 @@ class SuperCategoryController extends Controller
     public function index()
     {
         return response()->view('categories.index', [
-            'categories' => DB::table('categories')
-                ->whereNull('super_category')
-                ->get()
+            'categories' => Category::whereNull('super_category')->get(),
+            'is_super' => true
         ]);
     }
 

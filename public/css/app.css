@@ -10903,3 +10903,157 @@ a.text-dark:focus {
   }
 }
 
+.bg-main-light {
+  background-color: #ff85b7;
+}
+
+.bg-main {
+  background-color: #ff006a;
+}
+
+.bg-main-dark {
+  background-color: #992052;
+}
+
+.bg-acc-light {
+  background-color: #c7fff5;
+}
+
+.bg-acc {
+  background-color: #78ffe7;
+}
+
+.bg-acc-dark {
+  background-color: #58bfad;
+}
+
+.bg-light-light {
+  background-color: #fffefc;
+}
+
+.bg-light {
+  background-color: #fffdfa;
+}
+
+.bg-light-dark {
+  background-color: #f7f7f7;
+}
+
+.bg-grey-light {
+  background-color: #b5b5b5;
+}
+
+.bg-grey {
+  background-color: #969696;
+}
+
+.bg-dark-light {
+  background-color: #424242;
+}
+
+.bg-dark {
+  background-color: #292929;
+}
+
+.bg-dark-dark {
+  background-color: #1c1c1c;
+}
+
+.txt-dark-light {
+  color: #424242;
+}
+
+.txt-dark {
+  color: #292929;
+}
+
+.txt-dark-dark {
+  color: #1c1c1c;
+}
+
+.txt-acc-i {
+  color: #78ffe7 !important;
+}
+
+.txt-acc-dark-i {
+  color: #58bfad !important;
+}
+
+.txt-light-light-i {
+  color: #fffefc !important;
+}
+
+.txt-light-i {
+  color: #fffdfa !important;
+}
+
+.txt-light-dark-i {
+  color: #f7f7f7 !important;
+}
+
+.txt-grey-i {
+  color: #969696 !important;
+}
+
+.txt-dark-i {
+  color: #292929 !important;
+}
+
+.bd-main-light {
+  border-color: #ff85b7;
+}
+
+.bd-main {
+  border-color: #ff006a;
+}
+
+.bd-main-dark {
+  border-color: #992052;
+}
+
+.bd-acc-light {
+  border-color: #c7fff5;
+}
+
+.bd-acc {
+  border-color: #78ffe7;
+}
+
+.bd-acc-dark {
+  border-color: #58bfad;
+}
+
+.card-body {
+  padding-top: 0.2rem;
+}
+
+.card {
+  box-shadow: 3px 3px 10px #b5b5b5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.category:hover {
+  background-color: #f7f7f7 !important;
+  border-color: #ff85b7;
+}
+
+.upload {
+  margin-top: 1.5rem;
+}
+
+.h4-normal {
+  color: #1c1c1c !important;
+}
+
+.create:hover {
+  background-color: #c7fff5 !important;
+  border-color: #78ffe7;
+}
+
+.card-body-top {
+  margin-top: 1.23rem;
+}
+

@@ -10,11 +10,16 @@ class CategoryController extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @param Category $category
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Category $category)
     {
-        //
+        return response()->view('categories.index', [
+            'super_category' => $category,
+            'categories' => $category->categories(),
+            'is_super' => false
+        ]);
     }
 
     /**
