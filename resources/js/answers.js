@@ -13,4 +13,5 @@ function init() {
 
 function answer() {
     this.style.backgroundColor = 'rgba(255, 133, 183, 0.15)';
+    //border um alles $main-dark
 }

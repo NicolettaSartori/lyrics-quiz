@@ -3,7 +3,7 @@
 @section('content')
     @foreach($questions as $question)
         <div class="d-flex justify-content-center">
-            <div class="card shadow text-center mb-4 w-75 p-4">
+            <div class="card shadow text-center mb-4 w-75 p-4 bd-main">
                 <div class="card text-center mb-2 gr-acc">
                     <div class=" p-0 m-5">
                         <strong class="h4 h4-normal">{{$question->body}}</strong><br>
