@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c048463-a6bb-4b66-9229-ea3a7166f020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/factories/AnswerFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/QuestionFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_marginPadding.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/CategorySeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/CategorySeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +171,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/htdocs/INSY_3AI/webquizz" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -212,7 +215,7 @@
       <workItem from="1609698420261" duration="2264000" />
       <workItem from="1609750754279" duration="34674000" />
       <workItem from="1609878157127" duration="4051000" />
-      <workItem from="1609924574014" duration="5191000" />
+      <workItem from="1609924574014" duration="10127000" />
     </task>
     <task id="LOCAL-00001" summary="final setup">
       <created>1609621207895</created>
@@ -263,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609928406301</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added question&amp;answer seeder">
+      <created>1609930095165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609930095165</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,25 +302,30 @@
     <MESSAGE value="added show" />
     <MESSAGE value="super categories" />
     <MESSAGE value="fixed categorys &amp; added question page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed categorys &amp; added question page" />
+    <MESSAGE value="added question&amp;answer seeder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added question&amp;answer seeder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609677803090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609677803090" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609928405530">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609930094545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609928405530" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609771336738">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609930094545" />
+    <state x="740" y="194" key="FileChooserDialogImpl" timestamp="1609930309108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609771336738" />
+    <state x="740" y="194" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609930309108" />
     <state x="417" y="339" key="NewPhpFileDialog" timestamp="1609665757408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="417" y="339" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1609665757408" />
+    <state x="781" y="118" key="RollbackChangesDialog" timestamp="1609931219850">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="781" y="118" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609931219850" />
     <state x="461" y="115" key="SettingsEditor" timestamp="1609796300936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -327,13 +342,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609665993070" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1609796485740">
+    <state x="426" y="187" key="run.anything.popup" timestamp="1609934316530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609796485740" />
-    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609881871075">
+    <state x="426" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609934316530" />
+    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609934462744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609881871075" />
+    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609934462744" />
   </component>
 </project>

@@ -11023,14 +11023,6 @@ a.text-dark:focus {
   border-color: #58bfad;
 }
 
-.card-body {
-  padding-top: 0.2rem;
-}
-
-.card {
-  box-shadow: 3px 3px 10px #b5b5b5;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -11038,10 +11030,6 @@ a:hover {
 .category:hover {
   background-color: #f7f7f7 !important;
   border-color: #ff85b7;
-}
-
-.upload {
-  margin-top: 1.5rem;
 }
 
 .h4-normal {
@@ -11053,7 +11041,43 @@ a:hover {
   border-color: #78ffe7;
 }
 
-.card-body-top {
-  margin-top: 1.23rem;
+.m-1-tb {
+  margin: 0.25rem 0;
 }
+
+.m-2-tb {
+  margin: 0.5rem 0;
+}
+
+.m-3-tb {
+  margin: 1rem 0;
+}
+
+.m-4-tb {
+  margin: 1.5rem 0;
+}
+
+.m-5-tb {
+  margin: 2rem 0;
+}
+
+.m-1-b {
+  margin-bottom: 0.25rem;
+}
+
+/*.p-1-tb {
+    padding: 0.25rem 0;
+}
+.p-2-tb {
+    padding: 0.5rem 0;
+}
+.p-3-tb {
+    padding: 1rem 0;
+}
+.p-4-tb {
+    padding: 1.5rem 0;
+}
+.p-5-tb {
+    padding: 2rem 0;
+}*/
 

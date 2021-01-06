@@ -1,10 +1,4 @@
 //Cards general
-.card-body {
-    padding-top: 0.2rem;
-}
-.card {
-    box-shadow: 3px 3px 10px $grey-light;
-}
 a:hover {
     text-decoration: none;
 }
@@ -16,9 +10,6 @@ a:hover {
         @include backgroundImportant($light-dark);
         border-color: $main-light;
     }
-}
-.upload {
-    margin-top: 1.5rem;
 }
 .h4-normal {
     @include textImportant($dark-dark);
@@ -32,7 +23,4 @@ a:hover {
         @include backgroundImportant($accent-light);
         border-color: $accent;
     }
-}
-.card-body-top {
-    margin-top: 1.23rem;
 }

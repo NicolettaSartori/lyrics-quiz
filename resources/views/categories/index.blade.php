@@ -3,8 +3,8 @@
 @section('content')
     @if(!$is_super)
         <div class="d-flex justify-content-center">
-            <a href="{{route('category.create', $super_category->id)}}" class="create card text-center mb-4 w-75 bd-acc">
-                <div class="card-body card-body-top">
+            <a href="{{route('category.create', $super_category->id)}}" class="create card text-center shadow mb-4 w-75 bd-acc">
+                <div class="p-0 m-4">
                     <strong class="h4 txt-acc-dark-i">Create new</strong>
                 </div>
             </a>
@@ -19,11 +19,11 @@
                         <a href="{{route('category.show', [
                         'super_category' => $super_category->id,
                         'category' => $category->id])}}"
-                           class="category card text-center mb-4 w-75">
+                           class="category card text-center mb-4 w-75 shadow">
                             @endif
-                            <img src="{{$category->path}}" class="rounded w-50 mx-auto d-block upload" alt="">
-                            <div class="card-body">
-                                <strong class="h4 h4-normal">{{$category->body}}</strong><br>
+                            <div class="p-0 m-4-tb">
+                                <img src="{{$category->path}}" class="rounded w-50 mx-auto d-block m-1-b" alt="">
+                                <strong class="h4 h4-normal m-2">{{$category->body}}</strong><br>
                                 <div class="txt-grey-i">Questions: {{$category->questions->count()}}</div>
                             </div>
                         </a>
