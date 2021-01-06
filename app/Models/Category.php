@@ -16,7 +16,7 @@ class Category extends Model
 
     public function categories()
     {
-        return $this->hasMany(Category::class);
+        return $this->hasMany(Category::class, 'super_category');
     }
 
     public function questions()

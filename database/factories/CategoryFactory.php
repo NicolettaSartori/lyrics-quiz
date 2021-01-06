@@ -26,7 +26,8 @@ class CategoryFactory extends Factory
         return [
             'body' => $this->faker->word,
             'user_id' => User::factory(User::class),
-            'path' => Storage::url('2.jpg')
+            'path' => Storage::url('2.jpg'),
+            'super_category' => 1
         ];
     }
 }

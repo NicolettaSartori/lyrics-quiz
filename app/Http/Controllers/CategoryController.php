@@ -17,7 +17,7 @@ class CategoryController extends Controller
     {
         return response()->view('categories.index', [
             'super_category' => $category,
-            'categories' => $category->categories(),
+            'categories' => $category->categories,
             'is_super' => false
         ]);
     }
@@ -46,12 +46,16 @@ class CategoryController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param Category $super_category
+     * @param \App\Models\Category $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category)
+    public function show(Category $super_category, Category $category)
     {
-        //
+        return response()->view('categories.show', [
+            'category' => $category,
+            'questions' => $category->questions
+        ]);
     }
 
     /**

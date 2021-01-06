@@ -14,6 +14,7 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
+        Category::factory(5)->create(['super_category' => null]);
         Category::factory(5)->create();
     }
 }
