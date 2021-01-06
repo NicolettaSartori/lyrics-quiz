@@ -1,26 +1,29 @@
+@mixin lin-grad($r, $g, $b, $a) {
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(0,0,0,0), rgba($r, $g, $b, $a));
+}
+
 //Cards general
 a:hover {
     text-decoration: none;
 }
 
 
-//Card normal
-.category {
-    &:hover {
-        @include backgroundImportant($light-dark);
-        border-color: $main-light;
-    }
-}
+//Card main
 .h4-normal {
     @include textImportant($dark-dark);
 }
+.gr-main-hv:hover {
+    @include lin-grad(255, 133, 183, 0.15);
+    border-color: $main-light;
+}
 
 
-
-//Card create
-.create {
-    &:hover {
-        @include backgroundImportant($accent-light);
-        border-color: $accent;
-    }
+//Card accent
+.gr-acc-hv:hover {
+    @include lin-grad(199, 255, 245, 0.5);
+    border-color: $accent-dark;
+}
+.gr-acc {
+    @include lin-grad(199, 255, 245, 0.5);
+    //border-color: $accent;
 }

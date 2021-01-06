@@ -11027,18 +11027,22 @@ a:hover {
   text-decoration: none;
 }
 
-.category:hover {
-  background-color: #f7f7f7 !important;
-  border-color: #ff85b7;
-}
-
 .h4-normal {
   color: #1c1c1c !important;
 }
 
-.create:hover {
-  background-color: #c7fff5 !important;
-  border-color: #78ffe7;
+.gr-main-hv:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(255, 133, 183, 0.15));
+  border-color: #ff85b7;
+}
+
+.gr-acc-hv:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(199, 255, 245, 0.5));
+  border-color: #58bfad;
+}
+
+.gr-acc {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(199, 255, 245, 0.5));
 }
 
 .m-1-tb {
