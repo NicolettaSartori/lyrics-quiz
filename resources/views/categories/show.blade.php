@@ -3,11 +3,20 @@
 @section('content')
     @foreach($questions as $question)
         <div class="d-flex justify-content-center">
-            <div class="category card shadow text-center mb-4 w-75">
-                <div class=" p-0 m-5">
-                    <strong class="h4 h4-normal">{{$question->body}}</strong><br>
+            <div class="card shadow text-center mb-4 w-75 p-4">
+                <div class="category card text-center mb-2">
+                    <div class=" p-0 m-5">
+                        <strong class="h4 h4-normal">{{$question->body}}</strong><br>
+                    </div>
                 </div>
-                <!-- insert answers-->
+
+                @foreach($question->answers as $answer)
+                    <div class="category card text-center mb-2">
+                        <div class=" p-0 m-4">
+                            <strong class="h4 h4-normal">{{$answer->body}}</strong><br>
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div>
     @endforeach
