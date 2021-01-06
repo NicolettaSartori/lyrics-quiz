@@ -11,7 +11,7 @@
                 </div>
 
                 @foreach($question->answers as $answer)
-                    <div class="gr-main-hv category card text-center mb-2">
+                    <div class="gr-main-hv category card text-center mb-2 answer">
                         <div class=" p-0 m-4">
                             <strong class="h4 h4-normal">{{$answer->body}}</strong><br>
                         </div>
