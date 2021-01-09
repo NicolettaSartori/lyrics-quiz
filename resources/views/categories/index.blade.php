@@ -4,7 +4,7 @@
     @if(!$is_super)
         <div class="d-flex justify-content-center">
             <a href="{{route('category.create', $super_category->id)}}"
-               class="gr-acc-hv card text-center shadow mb-4 w-75 bd-acc">
+               class="card text-center shadow mb-4 w-75 btn-acc">
                 <div class="p-0 m-4">
                     <strong class="h4 txt-acc-dark-i">Create new</strong>
                 </div>

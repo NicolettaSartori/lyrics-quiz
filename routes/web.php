@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnswerController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SuperCategoryController;
 use Illuminate\Support\Facades\Auth;
@@ -25,3 +26,5 @@ Route::get('/super-category', [SuperCategoryController::class, 'index'])->name('
 Route::get('/super-category/{category}', [CategoryController::class, 'index'])->name('category');
 Route::get('/super-category/{category}/create', [CategoryController::class, 'create'])->name('category.create');
 Route::get('/super-category/{super_category}/{category}', [CategoryController::class, 'show'])->name('category.show');
+Route::get('/super-category/{super_category}/{category}', [CategoryController::class, 'show'])->name('category.show');
+Route::post('/check-answers', [AnswerController::class, 'index'])->name('answer');

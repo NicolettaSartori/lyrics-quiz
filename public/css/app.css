@@ -10919,6 +10919,10 @@ a.text-dark:focus {
   background-color: #c7fff5;
 }
 
+.bg-acc-light-1 {
+  background-color: rgba(199, 255, 245, 0.5);
+}
+
 .bg-acc {
   background-color: #78ffe7;
 }
@@ -11025,6 +11029,7 @@ a.text-dark:focus {
 
 a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .h4-normal {
@@ -11036,13 +11041,36 @@ a:hover {
   border-color: #ff85b7;
 }
 
+.gr-main {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(255, 133, 183, 0.15));
+}
+
+.radio-card:checked + .card {
+  background-color: rgba(255, 133, 183, 0.15);
+}
+
 .gr-acc-hv:hover {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(199, 255, 245, 0.5));
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(199, 255, 245, 0.15));
   border-color: #58bfad;
 }
 
 .gr-acc {
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(199, 255, 245, 0.5));
+}
+
+.card-p:hover {
+  cursor: pointer;
+}
+
+.btn-acc {
+  border-color: #58bfad;
+  color: #1c1c1c;
+  background-color: #c7fff5;
+}
+
+.btn-acc:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(120, 255, 231, 0.75));
+  color: #1c1c1c;
 }
 
 .m-1-tb {
