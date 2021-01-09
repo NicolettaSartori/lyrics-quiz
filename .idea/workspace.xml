@@ -20,18 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c048463-a6bb-4b66-9229-ea3a7166f020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/answers/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/answers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/answers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/categories/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +219,7 @@
       <workItem from="1609952772211" duration="2215000" />
       <workItem from="1610028089444" duration="4001000" />
       <workItem from="1610115034117" duration="6000" />
-      <workItem from="1610192668388" duration="7846000" />
+      <workItem from="1610192668388" duration="12920000" />
     </task>
     <task id="LOCAL-00001" summary="final setup">
       <created>1609621207895</created>
@@ -319,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609941755207</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed radiobutton and added link to check">
+      <created>1610201663117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610201663117</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +354,8 @@
     <MESSAGE value="edited hover effect" />
     <MESSAGE value="added listener on click on answers" />
     <MESSAGE value="edited border color" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited border color" />
+    <MESSAGE value="fixed radiobutton and added link to check" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed radiobutton and added link to check" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610195124533">
@@ -365,10 +366,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609677803090" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609941754363">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1610201662178">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609941754363" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610201662178" />
     <state x="740" y="194" key="FileChooserDialogImpl" timestamp="1609930309108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -401,9 +402,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="426" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609934316530" />
-    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610200800934">
+    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610204791692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610200800934" />
+    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610204791692" />
   </component>
 </project>

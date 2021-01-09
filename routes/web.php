@@ -27,4 +27,4 @@ Route::get('/super-category/{category}', [CategoryController::class, 'index'])->
 Route::get('/super-category/{category}/create', [CategoryController::class, 'create'])->name('category.create');
 Route::get('/super-category/{super_category}/{category}', [CategoryController::class, 'show'])->name('category.show');
 Route::get('/super-category/{super_category}/{category}', [CategoryController::class, 'show'])->name('category.show');
-Route::post('/check-answers', [AnswerController::class, 'index'])->name('answer');
+Route::post('/check-answers/{category}', [AnswerController::class, 'index'])->name('answer');

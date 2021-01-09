@@ -3,7 +3,7 @@
 @section('content')
     <!-- Name Kategory und kurze Beschreibung was man machen soll -->
 
-    <form method="post" action="{{route('answer')}}">
+    <form method="post" action="{{route('answer', $category)}}">
         @csrf
         @foreach($questions as $question)
             <div class="d-flex justify-content-center">
@@ -16,7 +16,7 @@
 
                     @foreach($question->answers as $answer)
                         <label>
-                            <input type="radio" class="d-none radio-card" name="answers" id="{{$answer->id}}" value="{{$answer->id}}">
+                            <input type="radio" class="d-none radio-card" name="{{$question->id}}" id="{{$answer->id}}" value="{{$answer->id}}">
                             <span class="gr-main-hv category card card-p text-center mb-2 answer">
                                 <span class=" p-0 m-4">
                                     <strong class="h4 h4-normal">{{$answer->body}}</strong><br>

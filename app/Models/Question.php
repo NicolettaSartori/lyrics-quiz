@@ -18,4 +18,14 @@ class Question extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    public function trueAnswer()
+    {
+        return $this->answers()->where('is_true', true)->first();
+    }
+
+    public function isTrue($answer)
+    {
+        return $answer == $this->trueAnswer()->id;
+    }
 }
