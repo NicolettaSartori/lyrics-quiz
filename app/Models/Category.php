@@ -28,4 +28,19 @@ class Category extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function countTrue($answers)
+    {
+        $questions = $this->questions()->get();
+        $countTrue = 0;
+
+        foreach ($questions as $question) {
+            if(array_key_exists($question->id, $answers)) {
+                $answer = Answer::where('id', $answers[$question->id])->first();
+                $countTrue+= ($question->isTrue($answer->id) ? 1 : 0);
+            }
+        }
+
+        return $countTrue;
+    }
 }

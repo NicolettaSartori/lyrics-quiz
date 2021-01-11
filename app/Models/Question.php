@@ -24,8 +24,8 @@ class Question extends Model
         return $this->answers()->where('is_true', true)->first();
     }
 
-    public function isTrue($answer)
+    public function isTrue($answer_id)
     {
-        return $answer == $this->trueAnswer()->id;
+        return $answer_id == $this->trueAnswer()->id;
     }
 }

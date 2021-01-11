@@ -17,6 +17,7 @@ class AnswerController extends Controller
     public function index(Category $category)
     {
         return response()->view('answers.index', [
+            'category' => $category,
             'questions' => $category->questions
         ]);
     }
