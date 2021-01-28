@@ -20,7 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('head')
 </head>
-<body>
+<body class="bg-light-light">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm bg-main">
             <div class="container">
@@ -77,7 +77,7 @@
             </div>
         </nav>
 
-        <main class="py-4 txt-dark-dark bg-light-light">
+        <main class="py-4 txt-dark-dark">
             @yield('content')
         </main>
     </div>

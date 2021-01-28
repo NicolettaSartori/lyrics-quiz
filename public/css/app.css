@@ -10903,6 +10903,10 @@ a.text-dark:focus {
   }
 }
 
+.bg-main-light-1 {
+  background-color: rgba(255, 133, 183, 0.15);
+}
+
 .bg-main-light {
   background-color: #ff85b7;
 }
@@ -10961,6 +10965,10 @@ a.text-dark:focus {
 
 .bg-dark-dark {
   background-color: #1c1c1c;
+}
+
+.bg-light-dark-hv:hover {
+  background-color: #f7f7f7;
 }
 
 .txt-dark-light {
@@ -11027,6 +11035,10 @@ a.text-dark:focus {
   border-color: #58bfad;
 }
 
+.bd-main-light-hv:hover {
+  border-color: #ff85b7;
+}
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -11038,7 +11050,6 @@ a:hover {
 
 .gr-main-hv:hover {
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(255, 133, 183, 0.15));
-  border-color: #ff85b7;
 }
 
 .gr-main {
@@ -11064,13 +11075,43 @@ a:hover {
 
 .btn-acc {
   border-color: #58bfad;
-  color: #1c1c1c;
+  color: #424242;
   background-color: #c7fff5;
 }
 
 .btn-acc:hover {
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(120, 255, 231, 0.75));
   color: #1c1c1c;
+}
+
+.btn-main {
+  border-color: #ff85b7;
+  color: #424242;
+  background-color: rgba(255, 133, 183, 0.15);
+}
+
+.btn-main:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(255, 133, 183, 0.25));
+  color: #1c1c1c;
+}
+
+.btn-nothing {
+  border: none;
+  background: none;
+}
+
+.rb-acc:checked + label > i.fa-check {
+  color: #58bfad;
+}
+
+.rb-main:checked + label > i.fa-times {
+  color: #ff006a;
+}
+
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 15em;
 }
 
 .m-1-tb {
@@ -11112,4 +11153,8 @@ a:hover {
 .p-5-tb {
     padding: 2rem 0;
 }*/
+
+main {
+  height: 92vh;
+}
 

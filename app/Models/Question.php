@@ -28,4 +28,9 @@ class Question extends Model
     {
         return $answer_id == $this->trueAnswer()->id;
     }
+
+    public function getAnswer($answer_id)
+    {
+        return ($answer_id == null) ? -1 : $this->answers()->where('id', $answer_id)->first();
+    }
 }

@@ -15,7 +15,7 @@ a:hover {
 }
 .gr-main-hv:hover {
     @include lin-grad(255, 133, 183, 0.15);
-    border-color: $main-light;
+    //border-color: $main-light;
     //box-shadow: 0 0.5rem 1rem rgba(255, 0, 106, 0.5) !important;
 }
 .gr-main {
@@ -46,11 +46,42 @@ a:hover {
 //Button
 .btn-acc {
     border-color: $accent-dark;
-    color: $dark-dark;
+    color: $dark-light;
     background-color: $accent-light;
 
     &:hover {
         @include lin-grad(120, 255, 231, 0.75);
         color: $dark-dark;
     }
+}
+.btn-main {
+    border-color: $main-light;
+    color: $dark-light;
+    background-color: rgba(255, 133, 183, 0.15);;
+
+    &:hover {
+        @include lin-grad(255, 133, 183, 0.25);
+        color: $dark-dark;
+    }
+}
+
+.btn-nothing {
+    border: none;
+    background: none;
+}
+
+
+//Radio button
+.rb-acc:checked + label > i.fa-check {
+    color: $accent-dark;
+}
+.rb-main:checked + label > i.fa-times {
+    color: $main;
+}
+
+
+//Image
+.img {
+    object-fit: cover;
+    height: 15em
 }

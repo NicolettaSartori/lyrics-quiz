@@ -5,7 +5,9 @@ namespace Database\Seeders;
 use App\Models\Answer;
 use App\Models\Category;
 use App\Models\Question;
+use App\Models\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class CategorySeeder extends Seeder
 {
@@ -16,12 +18,29 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        Category::factory(5)->create(['super_category' => null]);
-        Category::factory(5)->create();
-        Question::factory(5)->create();
-        for ($i = 1; $i < 6; $i++) {
-            Answer::factory(3)->create(['question_id' => $i]);
-            Answer::factory()->create(['question_id' => $i, 'is_true' => true]);
-        }
+        User::factory()->create([
+            'name' => 'Nicoletta',
+            'email' => 'nicoletta.s.s@outlook.com',
+            'password' => '$2y$10$xIDWFAq4FtA3r7Iz2GxRe.uXoJM2N24AFCLf9mhnmP1y4IqPbMWbS'
+        ]);
+
+        Category::factory()->create([
+            'body' => 'Pop',
+            'user_id' => 1,
+            'path' => Storage::url('pop.jpg')
+        ]);
+
+        Category::factory()->create([
+            'body' => 'Rap',
+            'user_id' => 1,
+            'path' => Storage::url('rap.png')
+        ]);
+
+        Category::factory()->create([
+            'body' => 'Disney',
+            'user_id' => 1,
+            'path' => Storage::url('disney.jpg')
+        ]);
+
     }
 }

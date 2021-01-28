@@ -13,6 +13,9 @@
 
 //Background colors
     //main
+.bg-main-light-1 {
+    background-color: rgba(255, 133, 183, 0.15);
+}
 .bg-main-light {
     background-color: $main-light;
 }
@@ -63,6 +66,12 @@
     background-color: $dark-dark;
 }
 
+//Background Hover
+.bg-light-dark-hv:hover {
+    background-color: $light-dark;
+}
+
+
 
 //Text colors
     //dark
@@ -104,6 +113,7 @@
 }
 
 
+
 //Border colors
     //main
 .bd-main-light {
@@ -124,4 +134,9 @@
 }
 .bd-acc-dark {
     border-color: $accent-dark;
+}
+
+//Border hover
+.bd-main-light-hv:hover {
+    border-color: $main-light;
 }

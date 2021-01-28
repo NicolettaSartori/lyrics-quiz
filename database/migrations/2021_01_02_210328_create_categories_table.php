@@ -25,7 +25,9 @@ class CreateCategoriesTable extends Migration
 
             $table->foreign('super_category')
                 ->references('id')
-                ->on('categories');
+                ->on('categories')
+                ->onDelete('cascade');
+
             $table->foreign('user_id')
                 ->references('id')
                 ->on('users');
