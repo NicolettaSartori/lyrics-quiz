@@ -20,33 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c048463-a6bb-4b66-9229-ea3a7166f020" name="Default Changelist" comment="added create new category">
-      <change afterPath="$PROJECT_DIR$/resources/js/categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/categories/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/questions/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/questions/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/startseite.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_210328_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_210328_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/CategorySeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/CategorySeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/answers/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +38,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,7 +56,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
@@ -191,8 +175,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/htdocs/INSY_3AI/webquizz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -211,11 +196,26 @@
       <recent name="C:\laragon\www\lyrics-quiz\lyrics-quiz\lyrics-quiz\storage\app\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.production">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="production" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="production" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.production" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -264,6 +264,8 @@
       <workItem from="1611753208823" duration="4597000" />
       <workItem from="1611823400494" duration="5096000" />
       <workItem from="1611830241332" duration="12406000" />
+      <workItem from="1624561555020" duration="1460000" />
+      <workItem from="1624618477340" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="final setup">
       <created>1609621207895</created>
@@ -417,63 +419,5 @@
     <MESSAGE value="added countTrue" />
     <MESSAGE value="added create new category" />
     <option name="LAST_COMMIT_MESSAGE" value="added create new category" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="731" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610195124533">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="731" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610195124533" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611859733661">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611859733661" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611410233292">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611410233292" />
-    <state x="740" y="194" key="FileChooserDialogImpl" timestamp="1609930309108">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="740" y="194" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609930309108" />
-    <state x="795" y="316" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1610354152419">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="795" y="316" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1536.824@0.0.1536.824" timestamp="1610354152419" />
-    <state x="717" y="138" key="NewPhpClassDialog" timestamp="1611404477436">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="717" y="138" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1611404477436" />
-    <state x="417" y="339" key="NewPhpFileDialog" timestamp="1611767909187">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="417" y="339" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1611767909187" />
-    <state x="781" y="118" key="RollbackChangesDialog" timestamp="1609931219850">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="781" y="118" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609931219850" />
-    <state x="461" y="115" key="SettingsEditor" timestamp="1609796300936">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609796300936" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609941766728">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609941766728" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609624493063">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1609624493063" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1609665993070">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609665993070" />
-    <state x="426" y="187" key="run.anything.popup" timestamp="1609934316530">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="426" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609934316530" />
-    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611860472273">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="222" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611860472273" />
   </component>
 </project>
